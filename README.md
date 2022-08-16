@@ -27,6 +27,7 @@ The datasets used include:
 
 ## TABLEAU DASHBOARD
 The Sales Dashboard for Customer Segmentation can be found [here](https://public.tableau.com/app/profile/aditya.agarwal1269/viz/CustomerSegmentationDashboard_16585087141130/RFMDashboard).<br>
+
 ![Dashboard](Report/Dashboard.png)<br>
 
 
@@ -61,11 +62,12 @@ In the data cleaning step the data quality of the following datasets were first 
 ### 2. Exploratory Data Analysis on Customer Segments
 
 After the data cleaning process, exploratory analysis on the dataset is performed and the following insights are obtained :
-- <b>New vs Old Customers Age Distribution</b><br> 
+- A) <b>New vs Old Customers Age Distribution</b><br> 
   - Most New customers are aged between 40-49 also for Old Customers the most of them are aged between 40-49
   - The lowest number of customers for both the types of customers is present in the age bracket under 20 and above 80 age groups.
   - The automobile company is popular among New Customers among the age groups 20-29 and 40-49. 
   - A steep drop in customers is observed in the 30-39 age group among the New Customers<br>
+
   <table>
   <tr>
     <td><b>Old Customers by Age Distribution</b></td>
@@ -77,15 +79,17 @@ After the data cleaning process, exploratory analysis on the dataset is performe
   </tr>
   </table>
   
-- <b>Bike purchases over last 3 years by Gender</b><br> 
+- B) <b>Bike purchases over last 3 years by Gender</b><br> 
   - Most bike puechases are done by Feamale over the last 3 years. Approximately 51% of the bike purchases are done by Female compared to 49% of the purchases being done by Male.
   - The Female purchases are 10,000 more than that of Male purchases (numerically).
+
   <img src="data%20visualization/Female%20vs%20Male%20Bike%20Purchases.PNG" height="400" align="middle">
   
-- <b>New vs Old Customers Job Industry Distribution</b><br> 
+- C) <b>New vs Old Customers Job Industry Distribution</b><br> 
   - Most New customers are from the Manufacturing and Financial Services sector (approx 20% of the New Customers).
   - The lowest number of customers are from the Agriculture and Telecom sector approx 3%.
   - Similar trend is observed among Old Customers as well.<br>
+
   <table>
   <tr>
     <td><b>Old Customers by Job Industry</b></td>
@@ -97,10 +101,11 @@ After the data cleaning process, exploratory analysis on the dataset is performe
   </tr>
   </table>
 
-- <b>Wealth Segmentation by Age Category</b><br> 
+- D) <b>Wealth Segmentation by Age Category</b><br> 
   - Across all age categories the largest number of customers are from 'Mass Customer' Segment
   - The next category comes from the 'High Net Worth' customers.
   - In the age group 40-49, Affluent segment out performs the High Net Worth customers in terms of number of customers.<br>
+
   <table>
   <tr>
     <td><b>Old Customers Wealth by Age Group</b></td>
@@ -112,10 +117,11 @@ After the data cleaning process, exploratory analysis on the dataset is performe
   </tr>
   </table>
 
-- <b>Cars owned by States</b><br> 
+- E) <b>Cars owned by States</b><br> 
   - New South Wales has the largest number of people who donot own a car.
   - In Victoria the proportion is quite even.
   - In Queensland the number of people owning a car is greater than who donot have a car.
+
   <img src="data%20visualization/Car%20Owners%20by%20State.PNG" height="400" align="middle">
 
 
@@ -136,15 +142,18 @@ In this analysis the customer segment was divided into 11 groups. The groups bei
 - Almost lost Customers
 
 As of the current state of the Automobile business the current distribution of customers segments is depicted below:
+
 <img src="data%20visualization/Customer%20Segment%20Distribution.PNG" height="400" align="middle">
 
 ### 4. RFM Analysis: Scatter Plots
 #### Recency vs Monetary :
 The visualization shows that recent customers have purchased more products and generated relatively more revenue than the customers who visited a while ageo.<br>
+
 <img src="data%20visualization/Recency%20vs%20Monetary.PNG" height="400" align="middle"><br>
 
 #### Frequency vs Monetary : 
 The visualization shows that customers belonging to Platinum/ Very Loyal/ Becoming Loyal Customer Segments have a greater frequency and generate greater monetary for the business<br>
+
 <img src="data%20visualization/Frequency%20vs%20Monetary.PNG" height="400" align="middle"><br>
 
 

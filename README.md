@@ -1,7 +1,21 @@
 # <p align = 'center'>Customer Segmentation For Automobile Company</p>
 
 ## PROJECT OVERVIEW
-The purpose of this project is to conduct a Customer Segmentation Analysis for an Automobile bike Company. Customer segmentation is performed by developing a RFM Model. RFM (Recency, Frequency, Monetary) analysis is a behavior-based approach grouping customers into segments. It groups the customers on the basis of their previous purchase transactions. In this analysis the customer segment was divided into 11 groups. The analysis will help in determining which customers segments should be targeted in order to enhance sales revenue for the company. A <b>Sales Dashboard for Customer Segmentation</b> is developed using <b>Tableau</b> and the data quality assessment and analysis is done using <b>Python</b>.
+The purpose of this project is to conduct a Customer Segmentation Analysis for an Automobile bike Company. Customer segmentation is performed by developing a RFM Model. RFM (Recency, Frequency, Monetary) analysis is a behavior-based approach grouping customers into segments. It groups the customers on the basis of their previous purchase transactions. In this analysis the customer segment was divided into 11 groups. 
+
+The analysis will help in determining which customers segments should be targeted in order to enhance sales revenue for the company. A <b>Sales Dashboard for Customer Segmentation</b> is developed using <b>Tableau</b> and the data quality assessment and analysis is done using <b>Python</b>.
+
+<b>Project Files - <b>
+
+1. [DQA and Data Cleaning CustomerDemographic.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/1_DQA%20and%20Data%20Cleaning%20CustomerDemographic.ipynb)
+
+2. [DQA and Data Cleaning Customer Address.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/DQA%20and%20Data%20Cleaning%20Customer%20Address.ipynb)
+
+3. [DQA and Data Cleaning NewCustomerList.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/3_DQA%20and%20Data%20Cleaning%20NewCustomerList.ipynb)
+
+4. [DQA and Data Cleaning Transactions.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/4_DQA%20and%20Data%20Cleaning%20Transactions.ipynb)
+
+5. [RFM Analysis.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/5_RFM%20Analysis.ipynb)
 
 ## DATA DESCRIPTION
 The datasets used include:
@@ -11,20 +25,13 @@ The datasets used include:
   -  __CustomerDemographic.xlsx__: This dataset included entire details of the Customer Demographics.
   -  __CustomerAddress.xlsx__: This dataset included the address of the Customers.
 
-## Tableau Dashboard
+## TABLEAU DASHBOARD
 The Sales Dashboard for Customer Segmentation can be found [here](https://public.tableau.com/app/profile/aditya.agarwal1269/viz/CustomerSegmentationDashboard_16585087141130/RFMDashboard).<br>
 ![Dashboard](Report/Dashboard.png)<br>
 
-<b>In case of failure of loading Jupyter Notebooks on Github, the following notebooks can be found in nbviewer. Click on the respective hyperlinks to view:</b>
-- [RFM Analysis.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/5_RFM%20Analysis.ipynb){:target="_blank" rel="noopener"}
 
-- [DQA and Data Cleaning CustomerDemographic.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/DQA%20and%20Data%20Cleaning%20CustomerDemographic.ipynb)
-- [DQA and Data Cleaning NewCustomerList.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/DQA%20and%20Data%20Cleaning%20NewCustomerList.ipynb)
-- [DQA and Data Cleaning Transactions.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/DQA%20and%20Data%20Cleaning%20Transactions.ipynb)
-- [DQA and Data Cleaning Customer Address.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/DQA%20and%20Data%20Cleaning%20Customer%20Address.ipynb)
+## ANALYSIS APPROACH
 
-
-## Analysis Approach
 ### 1. Data Quality Assessment and Data Cleaning
 The first step towards generating useful insights from the data was the data prepartion, quality assessment and data cleaning step. After the cleaning process exploratory data analysis on the dataset and identification customer purchasing behaviours to generate insights can be performed.
 
@@ -52,6 +59,7 @@ In the data cleaning step the data quality of the following datasets were first 
   - There were certain customer IDs from Customer Dempgraphics table which were getting dropped in the Address table.
 
 ### 2. Exploratory Data Analysis on Customer Segments
+
 After the data cleaning process, exploratory analysis on the dataset is performed and the following insights are obtained :
 - <b>New vs Old Customers Age Distribution</b><br> 
   - Most New customers are aged between 40-49 also for Old Customers the most of them are aged between 40-49
@@ -140,9 +148,8 @@ The visualization shows that customers belonging to Platinum/ Very Loyal/ Becomi
 <img src="data%20visualization/Frequency%20vs%20Monetary.PNG" height="400" align="middle"><br>
 
 
-## Tools and Technologies used
-The tools used in this project include:
+## TOOLS AND TECHNOLOGIES USED
 - __Python__ - This was needed to conduct <b>Data Quality Assessment</b> and also for <b>Data Cleaning processes</b>. With Python libraries <b>pandas, matplotlib, seaborn</b> exploratory data analysis of the datasets and to gain useful insights from the data was possible.
-- __Tableau__ - This <b>Business Intelligence</b> tool was required to explore data and create charts, graphs, visualizations to come up with a <b>Sales Dashboard for Customer Segmenatation</b> for the automobile bike company. The Tableau Sales Dashboard can be found [here](https://public.tableau.com/profile/abhishek.chowdhury#!/vizhome/CustomerSegmentationDashboard_16175595616510/RFMDashboard)
+- __Tableau__ - This <b>Business Intelligence</b> tool was required to explore data and create charts, graphs, visualizations to come up with a <b>Sales Dashboard for Customer Segmenatation</b> for the automobile bike company. The Tableau Sales Dashboard can be found [here](https://public.tableau.com/app/profile/aditya.agarwal1269/viz/CustomerSegmentationDashboard_16585087141130/RFMDashboard)
 
 

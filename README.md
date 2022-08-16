@@ -5,7 +5,7 @@ The purpose of this project is to conduct a Customer Segmentation Analysis for a
 
 The analysis will help in determining which customers segments should be targeted in order to enhance sales revenue for the company. A <b>Sales Dashboard for Customer Segmentation</b> is developed using <b>Tableau</b> and the data quality assessment and analysis is done using <b>Python</b>.
 
-<b>Project Files - <b>
+<b>Project Files<b> - 
 
 1. [DQA and Data Cleaning CustomerDemographic.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/1_DQA%20and%20Data%20Cleaning%20CustomerDemographic.ipynb)
 

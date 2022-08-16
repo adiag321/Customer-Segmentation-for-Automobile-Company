@@ -17,6 +17,7 @@ The Sales Dashboard for Customer Segmentation can be found [here](https://public
 
 <b>In case of failure of loading Jupyter Notebooks on Github, the following notebooks can be found in nbviewer. Click on the respective hyperlinks to view:</b>
 - [RFM Analysis.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/5_RFM%20Analysis.ipynb){:target="_blank" rel="noopener"}
+
 - [DQA and Data Cleaning CustomerDemographic.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/DQA%20and%20Data%20Cleaning%20CustomerDemographic.ipynb)
 - [DQA and Data Cleaning NewCustomerList.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/DQA%20and%20Data%20Cleaning%20NewCustomerList.ipynb)
 - [DQA and Data Cleaning Transactions.ipynb](https://nbviewer.org/github/adiag321/Customer-Segmentation-for-Automobile-Company/blob/main/DQA%20and%20Data%20Cleaning%20Transactions.ipynb)

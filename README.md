@@ -25,11 +25,6 @@ The datasets used include:
   -  __CustomerDemographic.xlsx__: This dataset included entire details of the Customer Demographics.
   -  __CustomerAddress.xlsx__: This dataset included the address of the Customers.
 
-## TABLEAU DASHBOARD
-The Sales Dashboard for Customer Segmentation can be found [here](https://public.tableau.com/app/profile/aditya.agarwal1269/viz/CustomerSegmentationDashboard_16585087141130/RFMDashboard).<br>
-
-![Dashboard](Report/Dashboard.png)<br>
-
 
 ## ANALYSIS APPROACH
 
@@ -62,6 +57,7 @@ In the data cleaning step the data quality of the following datasets were first 
 ### 2. Exploratory Data Analysis on Customer Segments
 
 After the data cleaning process, exploratory analysis on the dataset is performed and the following insights are obtained :
+
 A) <b>New vs Old Customers Age Distribution</b><br> 
   - Most New customers are aged between 40-49 also for Old Customers the most of them are aged between 40-49
   - The lowest number of customers for both the types of customers is present in the age bracket under 20 and above 80 age groups.
@@ -159,6 +155,12 @@ The visualization shows that recent customers have purchased more products and g
 The visualization shows that customers belonging to Platinum/ Very Loyal/ Becoming Loyal Customer Segments have a greater frequency and generate greater monetary for the business<br>
 
 <img src="data%20visualization/Frequency%20vs%20Monetary.PNG" height="400" align="middle"><br>
+
+
+## TABLEAU DASHBOARD
+The Sales Dashboard for Customer Segmentation can be found [here](https://public.tableau.com/app/profile/aditya.agarwal1269/viz/CustomerSegmentationDashboard_16585087141130/RFMDashboard).<br>
+
+![Dashboard](Report/Dashboard.png)<br>
 
 
 ## TOOLS AND TECHNOLOGIES USED
